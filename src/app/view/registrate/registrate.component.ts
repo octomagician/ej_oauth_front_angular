@@ -19,7 +19,7 @@ export class RegistrateComponent {
     this.form = this.fb.group({
       nombre: ['', [Validators.required]],
       correo: ['', [Validators.required, Validators.email]],
-      contraseña: ['', Validators.required]
+      contrasena: ['', Validators.required]
     });
   }
 
